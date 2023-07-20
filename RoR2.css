@@ -1,0 +1,40 @@
+html, body {
+    background-color: rgb(165, 213, 229);
+    color: rgb(43, 43, 43);
+    font-family: Montserrat;
+    padding: 0;
+}
+
+.nav-bar {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    background: linear-gradient(to top right, rgb(119, 230, 255), rgb(88, 178, 251));
+    width: 100vw;
+    height: 80px;
+}
+
+.nav-bar div {
+    display: inline block;
+    
+}
+
+.top-photo {
+    width: 100vw;
+    height: auto;
+    margin: 70px  0px 0px 0px
+}
+
+.center-all {
+    display: flex;
+    justify-content: center;
+}
+
+.main-contents {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+    width: 2000px;
+    border: 2px solid black;
+}
